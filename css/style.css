@@ -249,5 +249,21 @@ blockquote h1{
 }
 
 
+.ayuda{
+    width: 100%;
+    padding: 20px;
+}
 
-
+/* #textarea{
+    width: 50%;
+    height: 600px;
+} */
+.formulario{
+    width:30%;  
+    margin: auto;
+    padding: 15px;
+    background-color:cornsilk;
+}
+fieldset{
+    text-align: center;
+}
