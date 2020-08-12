@@ -25,57 +25,55 @@
     <main class="ayuda">
 
         <div class="formulario">
-            <form action="">
+            <form action="" autocomplete="off">
 
                 <fieldset>
                     <legend>Persona</legend>
                     <label for="Name">Nombre:</label>
                     <br>
-                    <input type="text" name="" id="Name">
+                    <input type="text" name="" id="Name" placeholder="Ingresa tu nombre">
                     <br>
     
                     <label for="Ap-paterno">Apellido paterno</label>
                     <br>
-                    <input type="text" name="" id="Ap-paterno">
+                    <input type="text" name="" id="Ap-paterno" placeholder="Ingresa tu apellido">
     
                     <br>
                     <label for="Ap-materno">Apellido Materno</label>
                     <br>
-                    <input type="text" name="" id="Ap-materno">
+                    <input type="text" name="" id="Ap-materno" placeholder="Ingresa tu apellido">
     
                     <br>
                     <label for="Correo">correo</label>
                     <br>
-                    <input type="email" name="" id="Correo">
+                    <input type="email" name="" id="Correo" placeholder="Ingresa correo">
     
                     <br>
+                    <label for="sexo">Elige tu sexo</label>
+                    <br>
                     <select name="sexo" id="sexo">
+                        <option hidden >---------</option>
                         <option value="hombre">hombre</option>
                         <option value="mujer">mujer</option>
                         <option value="otro">otro</option>
                     </select>
                     <br>
                     <label for="comentario">Comentario: </label><br>
-                    <textarea name="mensaje" id="comentario" cols="30" rows="5"></textarea>
+                    <textarea name="mensaje" id="comentario"  placeholder="Escribe tu Comentario"></textarea>
                     <br>
                     <label for="pregunta">Como fue la visita al sitio web</label>
-                    <hr>
                     <br>
-                    <input type="radio" name="buena" id="buena">
-
-
-
-
+                    <input type="radio" name="sitio" id="buena">
                     <label for="buena">buena</label>
 
-                    <input type="radio" name="regular" id="regular">
+                    <input type="radio" name="sitio" id="regular">
                     <label for="regula">regular</label>
 
-                    <input type="radio" name="malo" id="malo">
+                    <input type="radio" name="sitio" id="malo">
                     <label for="malo">malo</lamalo>
 
-                    <br>
-                    <button type="submit" onclick="alert('se envio datos')">enviar</button>
+                    <hr><br>
+                    <button type="submit" onclick="alert('se envio datos')">Enviar</button>
     
 
 
